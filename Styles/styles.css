@@ -2,6 +2,19 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    background-color: #D6DDED;
+}
+
+.logo{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo-img{
+width: 40px;
 }
 
 /* Common color */
@@ -23,7 +36,7 @@ header {
     height: 100%;
     width: 100%;
     background-image: url('../Assests/Hero-bg.png');
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* Navbar styles */
@@ -46,15 +59,15 @@ li {
 
 .logo-clr{
     color: #4E47FF;
-    border: 2px solid red;
-    padding: 15px 36px;
+    /* border: 2px solid red; */
+    padding: 40px 36px;
 }
 
 .sign-up-btn{
     border-radius: 10px;
     padding: 15px 36px;
     font-size: bold;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 a{
@@ -70,6 +83,7 @@ a{
     display: flex;
     flex-direction: column; 
     margin: 158px 0 100px 0;
+    padding-bottom: 100px;
 }
 
 .banner-headline{
@@ -80,7 +94,7 @@ a{
 
 /* Action section starts */
 .action-container{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
@@ -145,4 +159,71 @@ a{
   color: #6c6c6c;
   font-size: 16px;
 }
+
+/* Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 40px;
+}
+
+.contact-left h2 {
+  font-size: 70px;
+  color: #000000;
+}
+
+.contact-right {
+  width: 40%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-btn {
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+
+/* Footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 100px 0 100px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7ff;
+    text-align: center;
+
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+
 
