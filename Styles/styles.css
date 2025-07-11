@@ -13,6 +13,11 @@ body {
  color:white;
 }
 
+.third-color{
+    color: #252432;
+    font-size: 24px;
+}
+
 /* header section */
 header {
     height: 100%;
@@ -70,5 +75,74 @@ a{
 .banner-headline{
     font-size: 60px;
     text-align: center;
+}
+
+
+/* Action section starts */
+.action-container{
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.action-img{
+    border-radius: 20px;
+}
+
+.action-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.action-text-headings{
+    font-size: 42px;
+}
+
+.action-btn{
+    width: 170px;
+}
+
+/* Productive Users */
+/* Productive Users Section */
+.productive-container {
+  background-color: #EDEEFF;
+  padding: 60px 20px;
+  margin: 60px auto;
+  border-radius: 20px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.productive-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #252432;
+}
+
+.productive-statistic {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+
+.stat-label {
+  margin-top: 10px;
+  color: #6c6c6c;
+  font-size: 16px;
 }
 
