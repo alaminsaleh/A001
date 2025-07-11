@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Common color */
+.primary-color {
+    background-color: #4E47FF;
+   
+}
+.secondary-color{
+ color:white;
+}
+
+/* header section */
+header {
+    height: 100%;
+    width: 100%;
+    background-image: url('../Assests/Hero-bg.png');
+    border: 2px solid red;
+}
+
+/* Navbar styles */
+.nav-logo-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-clr{
+    color: #4E47FF;
+    border: 2px solid red;
+    padding: 15px 36px;
+}
+
+.sign-up-btn{
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-size: bold;
+    border: 2px solid red;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* banner */
+
+
+.banner-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+    margin: 158px 0 100px 0;
+}
+
+.banner-headline{
+    font-size: 60px;
+    text-align: center;
+}
+
